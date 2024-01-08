@@ -1,0 +1,46 @@
+.thirdpage-container{
+    margin-top:40px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thirdpage-container span{
+    font-family: 'Syne', sans-serif;
+    font-size: 68px;
+}
+.solutiondiv{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+    font-size: large;
+    flex-direction: column;
+    width: 75vw;
+}
+.solutionlogodiv{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+/* border: 2px solid red; */
+display: flex;
+padding: 5px;
+height: 10vh;
+font-weight: 600;
+align-items: center;
+font-size: larger;
+gap: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.image-nfd-logo-div{
+    background-color:#E8EBF1;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+
+}
+.image-nfd-logo-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
